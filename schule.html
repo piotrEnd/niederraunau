@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="de">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Grundschule Niederraunau</title>
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet" />
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+
+   <body>
+      <ul id="dropdown1" class="dropdown-content">
+         <li><a href="schule.html#direktorat">Direktorat / Sekretariat</a></li>
+         <li class="divider"></li>
+         <li><a href="schule.html#lehrer">Lehrer / Sprechzeiten</a></li>
+         <li class="divider"></li>
+         <li><a href="schule.html#elternbeirat">Elternbeirat</a></li>
+         <li class="divider"></li>
+         <li><a href="schule.html#elternbriefe">Elternbriefe</a></li>
+      </ul>
+      <ul id="dropdown2" class="dropdown-content">
+         <li><a href="schulleben.html#wir">Das sind WIR</a></li>
+         <li class="divider"></li>
+         <li><a href="schulleben.html#forscher">Kleine Forscher</a></li>
+         <li class="divider"></li>
+         <li><a href="schulleben.html#schulprojekte">Schulprojekte</a></li>
+         <li class="divider"></li>
+         <li><a href="schulleben.html#schulgeschichte">Geschichte</a></li>
+         <li class="divider"></li>
+         <li><a href="schulleben.html#rundgang">Rundgang</a></li>
+      </ul>
+      <ul id="dropdown3" class="dropdown-content">
+         <li><a href="schulweg.html#schulweg">Schulweghelfer</a></li>
+         <li class="divider"></li>
+         <li><a href="schulweg.html#busfahrplan">Busfahrplan</a></li>
+         <li class="divider"></li>
+         <li><a href="schulweg.html#busaufsicht">Busfahraufsicht</a></li>
+      </ul>
+
+      <div class="navbar-fixed">
+         <nav class="light-blue">
+            <div class="nav-wrapper">
+               <a href="index.html" class="brand-logo"
+                  ><span class="hide-on-med-and-down">Grundschule</span> Niederraunau</a
+               >
+               <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+                  ><i class="material-icons">menu</i></a
+               >
+               <ul class="right hide-on-med-and-down">
+                  <li><a href="index.html">Aktuelles</a></li>
+                  <li>
+                     <a class="dropdown-trigger" href="schule.html" data-target="dropdown1"
+                        >Schule<i class="material-icons right">arrow_drop_down</i></a
+                     >
+                  </li>
+                  <li>
+                     <a class="dropdown-trigger" href="schulleben.html" data-target="dropdown2"
+                        >Schulleben<i class="material-icons right">arrow_drop_down</i></a
+                     >
+                  </li>
+                  <li>
+                     <a class="dropdown-trigger" href="schulweg.html" data-target="dropdown3"
+                        >Schulweg<i class="material-icons right">arrow_drop_down</i></a
+                     >
+                  </li>
+                  <li><a href="impressum.html">Impressum</a></li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+
+      <ul class="sidenav schule" id="mobile-demo">
+         <li>
+            <div class="background">
+               <img class="responsive-img circle" src="img/storch.jpg" />
+            </div>
+         </li>
+         <li><a href="index.html">Aktuelles</a></li>
+         <li><a href="schule.html">Schule</a></li>
+         <li><a href="schulleben.html">Schulleben</a></li>
+         <li><a href="schulweg.html">Schulweg</a></li>
+         <li><a href="impressum.html">Kontakt</a></li>
+      </ul>
+
+      <div class="container schule">
+         <section id="direktorat" class="direktorat scrollspy">
+            <div class="row ">
+               <h2 class="center-align">
+                  <span class="header_deco hide-on-small-only">&#8226;</span> Direktorat &#8251;
+                  Sekretariat <span class="header_deco hide-on-small-only">&#8226;</span>
+               </h2>
+
+               <div class="col s12 m8 offset-m2 l4">
+                  <div class="card">
+                     <div class="card-content">
+                        <span class="card-title">Schulleitung: </span>
+                        <span class="card-title">Frau Heike Neher</span>
+                     </div>
+                     <div class="card-image">
+                        <img src="img/direktorat_01.jpeg" />
+                     </div>
+                     <div class="card-content">
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>Telefon</td>
+                                 <td>08282/3970</td>
+                              </tr>
+                              <tr>
+                                 <td>Fax</td>
+                                 <td>08282/81681</td>
+                              </tr>
+                              <tr>
+                                 <td>Mail</td>
+                                 <td>s-niederraunau@t-online.de</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col s12 m6 l4">
+                  <div class="card">
+                     <div class="card-content">
+                        <span class="card-title">Sekretariat: </span>
+                        <span class="card-title">Frau Pikowski</span>
+                     </div>
+                     <div class="card-image">
+                        <img src="img/direktorat_02.jpeg" />
+                     </div>
+                     <div class="card-content">
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>Montag</td>
+                                 <td>12.00 - 15.00 Uhr</td>
+                              </tr>
+                              <tr>
+                                 <td>Dienstag</td>
+                                 <td>7.30 - 12.00 Uhr</td>
+                              </tr>
+                              <tr>
+                                 <td>Donnerstag</td>
+                                 <td>7.30 - 12.00 Uhr</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="col s12 m6 l4">
+                  <div class="card">
+                     <div class="card-content">
+                        <span class="card-title">Hausmeister: </span>
+                        <span class="card-title">Herr Schweikart</span>
+                     </div>
+                     <div class="card-image">
+                        <img src="img/direktorat_03.jpeg" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section id="lehrer" class="lehrer scrollspy">
+            <h2 class="center-align">
+               <span class="header_deco hide-on-small-only">&#8226;</span> Kollegium 2018/19
+               <span class="header_deco hide-on-small-only">&#8226;</span>
+            </h2>
+            <div class="row">
+               <div class="col s12 center-align">
+                  <img class="responsive-img" src="img/kollegium.JPG" />
+               </div>
+               <div class="col s12 m8 offset-m2">
+                  <table class="highlight responsive-table ">
+                     <thead>
+                        <tr>
+                           <th>Klasse/Fächer</th>
+                           <th>Lehrkraft</th>
+                           <th>Sprechstunde</th>
+                        </tr>
+                     </thead>
+
+                     <tbody>
+                        <tr>
+                           <td>1a</td>
+                           <td>Frau Schrom</td>
+                           <td>Mittwoch, 9.50 - 10.35 Uhr</td>
+                        </tr>
+                        <tr>
+                           <td>1b</td>
+                           <td>Frau Menath</td>
+                           <td>Dienstag, 8.45 - 9.30 Uhr</td>
+                        </tr>
+                        <tr>
+                           <td>2a</td>
+                           <td>Frau Holzknecht</td>
+                           <td>Dienstag, 11.30 - 12.15 Uhr</td>
+                        </tr>
+                        <tr>
+                           <td>2b</td>
+                           <td>Frau Prautzsch</td>
+                           <td>Mittwoch, 12.15 - 13.00 Uhr</td>
+                        </tr>
+                        <tr>
+                           <td>3a</td>
+                           <td>Frau Rampp</td>
+                           <td>Mittwoch, 10.35 - 11.20 Uhr</td>
+                        </tr>
+                        <tr>
+                           <td>3b</td>
+                           <td>Frau Off</td>
+                           <td>Dienstag, 11.30 - 12.15 Uhr</td>
+                        </tr>
+                        <tr>
+                           <td>4a</td>
+                           <td>Frau Pfeiffer</td>
+                           <td>Mittwoch, 11.30 - 12.15 Uhr</td>
+                        </tr>
+                        <tr>
+                           <td>Schulleitung</td>
+                           <td>Frau Neher</td>
+                           <td>Mittwoch, 9.50 - 10.35 Uhr</td>
+                        </tr>
+                        <tr>
+                           <td>Werken und Gestalten</td>
+                           <td>Frau Mesko</td>
+                           <td>Dienstag, 9.50 - 10.35 Uhr</td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td>Frau Höhne</td>
+                           <td>nach Vereinbarung</td>
+                        </tr>
+                        <tr>
+                           <td>Katholische Religionslehre</td>
+                           <td>Herr Pfarrer Baur</td>
+                           <td></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </section>
+
+         <section id="elternbeirat" class="elternbeirat scrollspy">
+            <h2 class="center-align">
+               <span class="header_deco hide-on-small-only">&#8226;</span> Elternvertretung 2017/18
+               <span class="header_deco hide-on-small-only">&#8226;</span>
+            </h2>
+            <div class="row">
+               <div class="col s12 center-align">
+                  <img class="responsive-img" src="img/elternbeirat.jpg" />
+               </div>
+               <div class="col s12 center-align">
+                  <h5>Elternbeiratvorsitzende</h5>
+                  <div class="chip light-blue white-text">
+                     <i class="material-icons">account_circle</i>
+                     Petra Löffler-Schmid, Vorsitzende
+                  </div>
+                  <div class="chip light-blue white-text">
+                     <i class="material-icons">account_circle</i>
+                     Doris Fischer, Stellvertreterin
+                  </div>
+
+                  <h5>Elternbeiräte</h5>
+                  <div class="chip">
+                     <i class="material-icons">account_circle</i>
+                     Christian Lemke
+                  </div>
+                  <div class="chip">
+                     <i class="material-icons">account_circle</i>
+                     Karin Mussack
+                  </div>
+                  <div class="chip">
+                     <i class="material-icons">account_circle</i>
+                     Martina Strasser
+                  </div>
+                  <div class="chip">
+                     <i class="material-icons">account_circle</i>
+                     Silvia Egger
+                  </div>
+                  <div class="chip">
+                     <i class="material-icons">account_circle</i>
+                     Silke Lachenmayer
+                  </div>
+                  <div class="chip">
+                     <i class="material-icons">account_circle</i>
+                     Sylvia Schillgallis
+                  </div>
+                  <div class="chip">
+                     <i class="material-icons">account_circle</i>
+                     Carmen Kraye
+                  </div>
+                  <div class="chip">
+                     <i class="material-icons">account_circle</i>
+                     Tanja Rampp
+                  </div>
+                  <div class="chip">
+                     <i class="material-icons">account_circle</i>
+                     Franziska Prestele
+                  </div>
+               </div>
+
+               <div class="col s12 m8 offset-m2 center-align">
+                  <h5>Klassensprecher</h5>
+                  <table class="highlight responsive-table">
+                     <thead>
+                        <tr>
+                           <th>Klasse</th>
+                           <th>Elternsprecher</th>
+                        </tr>
+                     </thead>
+
+                     <tbody>
+                        <tr>
+                           <td>1a</td>
+                           <td>
+                              Petra Löffler-Schmid, Hohenraunau, Tel.: 08282/826971 <br />Christian
+                              Lemke, Niederraunau, Tel.: 08282/828544
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>1b</td>
+                           <td>
+                              Karin Mussack, Waltenhausen, Tel.: 08263/969778 <br />Martina
+                              Strasser, Aletshausen, Tel.: 08282/8824877
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>2a</td>
+                           <td>
+                              Silvia Egger, Niederraunau, Tel.: 08282/881591 <br />
+                              Silke Lachenmayer, Niederraunau, Tel.: 0172/2448576
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>2b</td>
+                           <td>
+                              Christine Wachter, Waltenhausen, Tel.: 08263/7799999 <br />
+                              Sylvia Schillgallis, Aletshausen, Tel.: 08282/826041
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>3a</td>
+                           <td>
+                              Carmen Kraye, Aletshausen, Tel.: 0179/4039411 <br />
+                              Tanja Rampp, Waltenhausen, Tel.: 08263/90099
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>4a</td>
+                           <td>
+                              Petra Löffler-Schmid, Hohenraunau, Tel.: 08282/826971 <br />
+                              Doris Fischer, Aletshausen, Tel.: 08282/881520
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </section>
+
+         <section id="elternbriefe" class="elternbriefe scrollspy">
+            <h2 class="center-align">
+               <span class="header_deco hide-on-small-only">&#8226;</span> Elternbriefe
+               <span class="header_deco hide-on-small-only">&#8226;</span>
+            </h2>
+            <div class="row">
+               <div class="col s12 m8 offset-m2 center-align">
+                  <ul class="collapsible">
+                     <li>
+                        <div class="collapsible-header">
+                           <i class="material-icons">colorize</i>Infektionsschutz 01/2015
+                        </div>
+                        <div class="collapsible-body"><a href="#">als PDF herunterladen</a></div>
+                     </li>
+                     <li>
+                        <div class="collapsible-header">
+                           <i class="material-icons">directions_run</i>Entfernen vom Schulgelände in
+                           der Wartezeit
+                        </div>
+                        <div class="collapsible-body"><a href="#">als PDF herunterladen</a></div>
+                     </li>
+                     <li>
+                        <div class="collapsible-header">
+                           <i class="material-icons">ac_unit</i>Unterrichtsausfall bei extremen
+                           Witterungsverhältnissen
+                        </div>
+                        <div class="collapsible-body"><a href="#">als PDF herunterladen</a></div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <section id="ogts" class="ogts scrollspy">
+            <h2 class="center-align">
+               <span class="header_deco hide-on-small-only">&#8226;</span> Offene Ganztagsschule
+               <span class="header_deco hide-on-small-only">&#8226;</span>
+            </h2>
+            <div class="row">
+               <div class="col s12">
+                  <p>
+                     Seit dem Schuljahr 2016/17 ist unsere Schule eine Offene Ganztagsschule (OGTS).
+                     Im Rahmen dieser Schulform können wir den Schülern aller Klassen das
+                     Betreuungsangebot kostenfrei anbieten. Die Betreuung findet in Räumen im
+                     Untergeschoss unserer Schule statt und ist von Montag bis Freitag jeweils bis
+                     14.00 Uhr möglich. Nähere Informationen erhalten Sie direkt von den
+                     Betreuerinnen unter der Nummer: 0162 - 3479138 oder bei der Schulleitung.
+                  </p>
+               </div>
+            </div>
+         </section>
+
+         <div class="col hide-on-med-and-down m3 l2">
+            <ul class="section table-of-contents">
+               <li><a href="#direktorat">Dirketorat</a></li>
+               <li><a href="#lehrer">Lehrer</a></li>
+               <li><a href="#elternbeirat">Elternbeirat</a></li>
+               <li><a href="#elternbriefe">Elternbriefe</a></li>
+               <li><a href="#ogts">OGTS</a></li>
+            </ul>
+         </div>
+      </div>
+
+      <footer class="page-footer blue ">
+         <div class="container ">
+            <div class="row ">
+               <div class="col s12 center-align ">
+                  <h5>Grundschule Niederraunau</h5>
+                  <p>Commerzienrat-Schleifer-Platz 5</p>
+                  <p>86381 Krumbach - Niederraunau</p>
+                  <div class="row foot">
+                     <div class="col s5 ">
+                        <ul class="right-align">
+                           <li><i class="material-icons">phone</i></li>
+                           <li><i class="material-icons">local_printshop</i></li>
+                           <li><i class="material-icons">mail</i></li>
+                        </ul>
+                     </div>
+                     <div class="col s7">
+                        <ul class="left-align">
+                           <li><span>08282/3970</span></li>
+                           <li><span>08282/81681</span></li>
+                           <li><span>gs-niederraunau@t-online.de</span></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-copyright  blue darken-2">
+            <div class="container  center-align">
+               © 2018 by <a class="grey-text text-lighten-4 " href="#!">piotrend@gmail.com</a>
+            </div>
+         </div>
+      </footer>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+         $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.dropdown-trigger').dropdown();
+            $('.collapsible').collapsible();
+            $('.scrollspy').scrollSpy();
+         });
+      </script>
+   </body>
+</html>
