@@ -3,21 +3,22 @@
 
 **Information architecture:**
 
-I get it - it's elementary school in Germany- parents expect information overflow. Still I have reorganized data presentation architecture. Some parts merged together, some were exported elsewhere.
+The webpages of German elementary schools are overflowing with information. My child's school is not an exception here, so I chose to structure the information architecture in my own way. Some sections have been merged, while others have been moved to different modules.
 
 **Design:**
 
-Existing [website](http://www.gs-niederraunau.de/) is kind of outdated in terms of design and with that being said I don't mean that everything need to have corporate visual identity. My proposal is to use Material Design in layout and color, rounded fonts and funky swirl pattern in the background.
+The current [website](http://www.gs-niederraunau.de/) appears somewhat outdated in terms of design. My suggestion is to adopt Material Design principles for the layout and color scheme, along with rounded fonts and a dynamic swirl pattern in the background. There is a sticky main navbar at the top and a helper navigation related to the specific section on the side. Each module is distinguished by its individual color palette. Made with the Materialize CSS framework.
 
 
 Please >> [visit here](https://piotrend.github.io/niederraunau/ ) <<
 
-> *October, 2018*
-
 
 | technology stack  |
+| --- 		       |
 | --- 		       |
 | HTML |
 | Materialize CSS |
 | npm	       |
 | gulp    |
+
+> *October, 2018*
